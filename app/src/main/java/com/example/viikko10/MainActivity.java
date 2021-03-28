@@ -19,8 +19,8 @@ public class MainActivity extends AppCompatActivity {
         webview.setWebViewClient(new WebViewClient());
         webview.getSettings().setJavaScriptEnabled(true);
 
-        //webview.loadUrl("https://lut.fi/");
-        webview.loadUrl("file:///android_asset/index.html");
+        webview.loadUrl("https://lut.fi/");
+        //webview.loadUrl("file:///android_asset/index.html");
 
 
     }
